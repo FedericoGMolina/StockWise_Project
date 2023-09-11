@@ -18,5 +18,9 @@ namespace StockWise_Project
             InitializeComponent();
         }
 
+        private void btnIniciarSesion_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("FUNCIONO PAPU");
+        }
     }
 }
