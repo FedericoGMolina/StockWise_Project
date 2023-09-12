@@ -18,9 +18,20 @@ namespace StockWise_Project
             InitializeComponent();
         }
 
+        private void btnSalirLogin_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btnCancelarLogin_Click(object sender, EventArgs e)
+        {
+            txtUsuarioLogin.Text = "";
+            txtContraseñaLogin.Text = "";
+        }
+
         private void btnIniciarSesion_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("FUNCIONO PAPU");
+            MessageBox.Show("Funcionó");
         }
     }
 }
